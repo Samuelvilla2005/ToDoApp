@@ -6,3 +6,4 @@ if __name__ == "__main__":
     book: TodoBook = TodoBook()
     ui: Console = Console(book)
     ui.app_loop()
+    print()
